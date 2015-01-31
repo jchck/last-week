@@ -1,8 +1,11 @@
-// This is our CSS framework
-@import "_bagpakk";
-
 // Override bagpakk defaults & app spicific variables 
-@import "_variables";
+@import "variables";
+
+// This is our CSS framework
+@import "bagpakk";
+
+// Here's Font Awesome
+@import "../vendor/font-awesome/scss/font-awesome";
 
 // Current styles
-@import "_current";
+@import "current";
