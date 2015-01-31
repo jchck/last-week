@@ -1,1 +1,8 @@
+// This is our CSS framework
 @import "_bagpakk";
+
+// Override bagpakk defaults & app spicific variables 
+@import "_variables";
+
+// Current styles
+@import "_current";
