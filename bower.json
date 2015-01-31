@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "bagpakk": "~1.0.0"
+    "bagpakk": "~1.0.0",
+    "font-awesome": "~4.3.0"
   }
 }
