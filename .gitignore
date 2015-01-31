@@ -16,8 +16,9 @@
 /tmp
 *.env
 
-# Ignore Gulp Plugins
+# Ignore Node Things
 /node_modules
+npm-debug.log
 
 # Ignore Bower Imported Assets
 assets/vendor
