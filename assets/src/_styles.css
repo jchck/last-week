@@ -5,4 +5,20 @@
   Add custom styles here.
 
 */
+header{
+	background: var(--red);
+	padding: .5em 0;
+}
 
+form{
+	margin-bottom: 0;
+	text-align: center;
+}
+
+input{
+	background: var(--dark-gray);
+	color: var(--white);
+	box-shadow: inset var(--dark-gray) 0 -5px 5px, inset #131313 0 1px 5px, rgb(230, 45, 52) 0 1px 0;
+	padding: 6px 10px;
+	text-align: center;
+}

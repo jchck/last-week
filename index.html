@@ -1,27 +1,27 @@
 <html>
   <head>
     <title>Last Week - Find Out Your Friends' Top Artists!</title>
-    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
     <script src="js/new-jquery-2.1.3.min.js"></script>
     <script src="js/application.js"></script>
     <!--<script src="js/imtech_pager.js"></script>-->
+    <header>
+      <form>
+        <input class="br-circ" id="textbox" type="text" placeholder="Enter last.fm username" onkeydown="if(event.keyCode==13)$('#button').trigger('click');"/>
+          <a class="btn btn--s" id="button">
+            <input type="submit" value="Go" />
+          </a>
+      </form>
+    </header>
     <div class="title">
       <h1>L<span class="red"><i class="fa fa-lastfm"></i></span>t Week</h1>
       <h5>See your friends' favorite artists on one page.
         <br>Find what you have in common. Be judgy. Discover new music.</h5>
     </div>
-    <div class="above-main">
-      <p>
-        <div class="form">
-          <input id="textbox" type="text" placeholder="Enter your last.fm username here" style="width: 180px;" onkeydown="if(event.keyCode==13)$('#button').trigger('click');"/>
-          <span id="button">
-            <input type="submit" value="Search" />
-          </span>
-        </div>
-      </p>
-    </div>
+    
     <br>
     <div id="content">
       <table>

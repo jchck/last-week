@@ -7804,6 +7804,24 @@ img {
 
 */
 
+header {
+  background: #d82c2c;
+  padding: .5em 0;
+}
+
+form {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+input {
+  background: #333;
+  color: #fff;
+  box-shadow: inset #333 0 -5px 5px, inset #131313 0 1px 5px, rgb(230, 45, 52) 0 1px 0;
+  padding: 6px 10px;
+  text-align: center;
+}
+
 /*
    VERTICAL ALIGN
 */
