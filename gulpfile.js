@@ -29,7 +29,7 @@ gulp.task('css', function() {
 // Initialize browser-sync which starts a static server also allows for
 // browsers to reload on filesave
 gulp.task('browser-sync', function() {
-    browserSync.init(null, {
+    browserSync({
         server: {
             baseDir: "./"
         }
@@ -52,6 +52,6 @@ gulp.task('bs-reload', function () {
 //gulp.task('default' ['css']);
 gulp.task('default', ['css', 'bs-reload', 'browser-sync'], function(){
   gulp.start(['css', 'bs-reload']);
-  gulp.watch('src/*', ['css']);
+  gulp.watch('assets/src/*', ['css']);
   gulp.watch(['*.html', './**/*.html'], ['bs-reload']);
 });
