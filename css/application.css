@@ -73,8 +73,12 @@ h5 {
     margin: 0 auto 0 auto;
     text-align: center;
 }
+.wrapper {
+
+}
 table {
     margin: 0 auto 0 auto;
+    /*max-width: 420px;*/
 }
 #success {
     display: inline-block;

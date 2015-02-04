@@ -39,6 +39,8 @@ $(document).ready(function() {
                                   + user.name
                                   + '"'
                                   + 'target="_blank"'
+                                  + 'title='
+                                  + user.realname
                                   + '>'
                                   + user.name
                                   + '</a>' + '</b>' + "'s "
