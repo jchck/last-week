@@ -37,16 +37,6 @@
         </tr>
       </table>
     </div>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(document).on('click', '.fa-lastfm-square', function(event) {
-          var userName = event.target.getAttribute("user-name");
-          $("#textbox").val(userName);
-          $('#button').trigger('click');
-          $("#textbox").val(userName);
-        });
-      });
-    </script>
     <div id="error"></div>
     <div class="bottom">
       (Click on the Last.fm icon next to a username to copy it into the search field.)

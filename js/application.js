@@ -79,3 +79,11 @@ $(document).ready(function() {
       });
   });
 });
+$(document).ready(function () {
+    $(document).on('click', '.fa-lastfm-square', function(event) {
+        var userName = event.target.getAttribute("user-name");
+        $("#textbox").val(userName);
+        $('#button').trigger('click');
+        $("#textbox").val(userName);
+    });
+});
