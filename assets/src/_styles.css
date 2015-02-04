@@ -5,14 +5,23 @@
   Add custom styles here.
 
 */
+body{
+	text-align: center;
+	color: var(--near-black);
+	background-color: var(--near-white);
+}
+.container{
+	margin: 0 auto;
+	background: var(--light-silver)
+}
 header{
 	background: var(--red);
+	/*background-image: linear-gradient(to bottom, var(--red) 25%, var(--gray));*/
 	padding: .5em 0;
 }
 
 form{
 	margin-bottom: 0;
-	text-align: center;
 }
 
 input{

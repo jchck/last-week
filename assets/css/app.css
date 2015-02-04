@@ -7804,14 +7804,25 @@ img {
 
 */
 
+body {
+  text-align: center;
+  color: #111;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin: 0 auto;
+  background: #aaa;
+}
+
 header {
   background: #d82c2c;
+  /*background-image: linear-gradient(to bottom, var(--red) 25%, var(--gray));*/
   padding: .5em 0;
 }
 
 form {
   margin-bottom: 0;
-  text-align: center;
 }
 
 input {
