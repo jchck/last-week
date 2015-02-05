@@ -11,7 +11,8 @@ body{
 	background: var(--near-white);
 }
 .container{
-	margin: 0 auto;
+	margin: 0 auto 40px auto;
+	padding-bottom: 20px;
 	background-color: var(--white);
 	border-left: 1px solid var(--moon-gray);
 	border-bottom: 1px solid var(--moon-gray);
