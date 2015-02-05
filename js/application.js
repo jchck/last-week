@@ -26,11 +26,11 @@ $(document).ready(function() {
                       dataType: 'json',
                       success: function(data1) {
                           if(typeof data1.topartists.artist[0] !== "undefined") {
-                              $.when($('#success').append('<span class="username">'
-                                  + '<b>' + '<a href="'
+                              $.when($('#success').append('<span class="username bold">'
+                                  + '<a href="'
                                   + "http://www.last.fm/user/"
                                   + user.name + '"' + 'target="_blank"' + '>' + user.name
-                                  + '</a>' + '</b>' + "'s "
+                                  + '</a>' + "'s "
                                   + "top artist last week was: "
                                   + '</span>' + '<br>')).then($('#success').append('<span class="topartist">'
                                   + '<a href="'
