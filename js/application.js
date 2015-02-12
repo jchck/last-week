@@ -29,6 +29,7 @@ $(document).ready(function() {
                               $.when($('#success').append('<span class="username">'
                                   + '<b>'
                                   + '<i class="fa fa-lastfm-square"'
+//                                  + 'title="See their friends"'
                                   + 'user-name='
                                   + user.name
                                   + '>'
