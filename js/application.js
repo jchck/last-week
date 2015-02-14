@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $( "#button" ).click(function() {
-      $( "#textbox" ).blur();
+  $( '#button' ).click(function() {
+      $( '#textbox' ).blur();
       var lastfmusername = 'user='
-          + document.getElementById("textbox").value;
+          + document.getElementById( 'textbox' ).value;
       $.ajax({
           type: 'POST',
           url: 'http://ws.audioscrobbler.com/2.0/',
@@ -26,10 +26,10 @@ $(document).ready(function() {
                       dataType: 'json',
                       success: function(data1) {
                           if(typeof data1.topartists.artist[0] !== "undefined") {
-                              $.when($('#success').append('<span class="username">'
+                              $.when($( '#success' ).append('<span class="username">'
                                   + '<b>'
                                   + '<i class="fa fa-lastfm-square"'
-//                                  + 'title="See their friends"'
+                                  + 'title="See this user\'s friends"'
                                   + 'user-name='
                                   + user.name
                                   + '>'
@@ -47,7 +47,7 @@ $(document).ready(function() {
                                   + '</a>' + '</b>' + "'s "
                                   + "top artist: "
                                   + '</span>'
-                                  + '<br>')).then($('#success').append('<span class="topartist">'
+                                  + '<br>')).then($( '#success' ).append('<span class="topartist">'
                                   + '&nbsp;' + '&nbsp;' + '&nbsp;' + '&nbsp;'
                                   + '<a href="'
                                   + data1.topartists.artist[0].url
@@ -76,15 +76,15 @@ $(document).ready(function() {
               });
           }
       }).done(function(data) {
-          $("#success").html(data);
+          $( '#success' ).html(data);
       });
   });
 });
 $(document).ready(function () {
     $(document).on('click', '.fa-lastfm-square', function(event) {
-        var userName = event.target.getAttribute("user-name");
-        $("#textbox").val(userName);
-        $('#button').trigger('click');
-        $("#textbox").val(userName);
+        var userName = event.target.getAttribute( 'user-name' );
+        $( '#textbox' ).val(userName);
+        $( '#button' ).trigger('click');
+        $( '#textbox' ).val(userName);
     });
 });
