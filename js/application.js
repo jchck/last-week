@@ -49,7 +49,7 @@ $(document).ready(function() {
                                   + '</a>' + '</b>' + "'s "
                                   + "top artist: "
                                   + '</span>'
-                                  + '<br>')).then($( '#success' ).append('<span class="topartist">'
+                                  + '<div class="bottom-row">')).then($( '#success' ).append('<span class="topartist">'
                                   + '&nbsp;' + '&nbsp;' + '&nbsp;' + '&nbsp;'
                                   + '<a href="'
                                   + data1.topartists.artist[0].url
@@ -71,6 +71,7 @@ $(document).ready(function() {
                                   + " plays)"
                                   + '</a>'
                                   + '</span>'
+                                  + '</div>'
                                   + '<br>' + '<br>'));
                           }
                       }
