@@ -91,3 +91,14 @@ $(document).ready(function () {
         $( '#textbox' ).val(userName);
     });
 });
+
+//code to toggle between style sheets
+
+/*
+$('#minimalist').click(function (){
+    $('link[href="application.css"]').attr('href','new.css');
+});
+$('#newfangled').click(function (){
+    $('link[href="new.css"]').attr('href','application.css');
+});
+*/
