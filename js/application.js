@@ -96,9 +96,9 @@ $(document).ready(function () {
 
 /*
 $('#minimalist').click(function (){
-    $('link[href="application.css"]').attr('href','new.css');
+    $('link[href="css/application.css"]').attr('href','css/new.css');
 });
 $('#newfangled').click(function (){
-    $('link[href="new.css"]').attr('href','application.css');
+    $('link[href="css/new.css"]').attr('href','css/application.css');
 });
 */
