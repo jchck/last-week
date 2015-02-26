@@ -78,12 +78,10 @@ h5 {
 }
 table {
     margin: 0 auto 0 auto;
-    /*max-width: 420px;*/
 }
 #success {
     display: inline-block;
     text-align: justify;
-    /*text-align: left;*/
     margin: 25px 50px 25px 50px;
 }
 a {
