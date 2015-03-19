@@ -1,0 +1,67 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+body{
+	text-align: center;
+	color: var(--near-black);
+	background: var(--near-white);
+}
+.container{
+	margin: 0 auto 40px auto;
+	padding-bottom: 20px;
+	background-color: var(--white);
+	border-left: 1px solid var(--moon-gray);
+	border-bottom: 1px solid var(--moon-gray);
+	border-right: 1px solid var(--moon-gray);
+}
+header{
+	background: var(--red);
+	padding: .5em 0;
+}
+
+form{
+	margin-bottom: 0;
+}
+
+input{
+	background: var(--dark-gray);
+	color: var(--white);
+	box-shadow: inset var(--dark-gray) 0 -5px 5px, inset #131313 0 1px 5px, rgb(230, 45, 52) 0 1px 0;
+	padding: 6px 10px;
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+	text-align: center;
+}
+*
+
+   LINKS
+
+*/
+a {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+a:link,
+a:visited {
+  color: var(--mid-gray);
+  transition: color .15s ease-in;
+}
+a:hover   {
+  color: var(--light-blue);
+  transition: color .15s ease-in;
+}
+a:active  {
+  color: #C4E3E0;
+  transition: color .15s ease-in;
+}
+a:focus   {
+  color: #2D243B;
+  transition: color .15s ease-in;
+}

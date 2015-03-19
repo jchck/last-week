@@ -26,6 +26,7 @@ $(document).ready(function() {
                       dataType: 'json',
                       success: function(data1) {
                           if(typeof data1.topartists.artist[0] !== "undefined") {
+<<<<<<< HEAD
                               $.when($( '#success' ).append('<span class="username">'
                                   + '<b>'
                                   + '<i class="fa fa-lastfm-square"'
@@ -51,6 +52,15 @@ $(document).ready(function() {
                                   + '</span>'
                                   + '<div class="bottom-row">')).then($( '#success' ).append('<span class="topartist">'
                                   + '&nbsp;' + '&nbsp;' + '&nbsp;' + '&nbsp;'
+=======
+                              $.when($('#success').append('<span class="username bold">'
+                                  + '<a href="'
+                                  + "http://www.last.fm/user/"
+                                  + user.name + '"' + 'target="_blank"' + '>' + user.name
+                                  + '</a>' + "'s "
+                                  + "top artist last week was: "
+                                  + '</span>' + '<br>')).then($('#success').append('<span class="topartist">'
+>>>>>>> 2b2e2fc8eb7f1b36b01eb3016b32deb8bf24585f
                                   + '<a href="'
                                   + data1.topartists.artist[0].url
                                   + '"' + 'target="_blank"'

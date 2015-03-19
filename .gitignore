@@ -4,6 +4,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+.DS_STORE
+
 # Ignore bundler config.
 /.bundle
 
@@ -15,3 +17,10 @@
 /log/*.log
 /tmp
 *.env
+
+# Ignore Node Things
+/node_modules
+npm-debug.log
+
+# Ignore Bower Imported Assets
+assets/vendor

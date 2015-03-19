@@ -1,0 +1,23 @@
+{
+  "name": "Last Week",
+  "version": "0.0.0",
+  "homepage": "http://gregburton.github.io/last-week/",
+  "authors": [
+    "jaechick <hey@justinchick.com>"
+  ],
+  "description": "See your friends' favorite artists on one page.",
+  "main": "Find what you have in common. Be judgy. Discover new music.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bagpakk": "~1.0.0",
+    "font-awesome": "~4.3.0"
+  }
+}
