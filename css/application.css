@@ -110,6 +110,13 @@ a {
     padding-bottom:10px;
 }
 
+.br-circ {
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 .username a {
     color: #404040;
 }

@@ -60,6 +60,7 @@ $(document).ready(function() {
                                   + '</a>'
                                   + '</span>'
                                   + '<span class="playcount">'
+                                  + '&nbsp;'
                                   + '<a href="'
                                   + "http://www.last.fm/user/"
                                   + user.name
@@ -68,7 +69,7 @@ $(document).ready(function() {
                                   + '?&rangetype=week"'
                                   + 'target="_blank"'
                                   + '>'
-                                  + " (" + data1.topartists.artist[0].playcount
+                                  + "(" + data1.topartists.artist[0].playcount
                                   + " plays)"
                                   + '</a>'
                                   + '</span>'
