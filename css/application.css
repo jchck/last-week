@@ -3,12 +3,6 @@ body {
     color: #404040;
 }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 55px;
-}
-
 h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -63,7 +57,13 @@ h5 {
 
 .red {
     color: #ff0000;
-    font-size: 47px;
+    font-size: 24px;
+}
+
+.big-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
 }
 
 .fa-lastfm-square {
